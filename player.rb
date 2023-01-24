@@ -8,11 +8,11 @@ class Player
     @points_scored = 0
   end
 
-  def addPoint
+  def add_point
     @points_scored += 1
   end
 
-  def loseLife
+  def lose_life
     @lives_left -=1
   end
 end
